@@ -15,10 +15,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+.address {
+    font-style: normal;
+}
 
 .header-link-active,
 .header-link:hover {
-  color: #ff6600cb;
+  color: #404bbf;
+  background-color: #404BBF;
 }
 
 - .primary-button {
@@ -27,7 +31,10 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color: var(--text-white);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
     cursor: pointer;
   }
   .hero-section {
@@ -38,6 +45,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 0.02em;
+line-height: 1.07;
+text-align: center; 
 color: var(--text-white);
   }
   .section-subtitle {
@@ -54,12 +63,22 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--secondary-color)
   }
+  .employee-section{
+    background-color: #F4F4FD;
+  }
   .employee-section-title {
 font-size: 36px;
 font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.02em;
+line-height: 1.11;
+text-transform: capitalize;
+text-align: center; 
 color: var(--primary-color)
+  }
+
+  .employee-section-list-item {
+    background-color: #FFFFFF;
   }
   .employee-section-subtitle {
 font-size: 20px;
@@ -76,11 +95,17 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--secondary-color);
 }
+.portfolio-section {
+    background-color: #F4F4FD;
+}
 .portfolio-section-title {
 font-size: 36px;
 font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.02em;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 color: var(--primary-color)
 }
 .portfolio-section-subtitle {
@@ -88,6 +113,7 @@ color: var(--primary-color)
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF; 
     color: var(--primary-color)
 }
 .portfolio-section-paragraph {
@@ -97,17 +123,22 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--secondary-color)
 }
-footer {
-    background-color: var(--secondary-color) ;
+.footer {
+    background-color: #2e2f42;
 }
-.logo {
+.logo{
     font-family: Raleway,  sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform:uppercase;
+    line-height: 1.17; 
    color:#4d5ae5;
+}
+
+.logo-element {
+    color: #f4f4fd;
 }
 .footer-paragraph {
 font-family: Roboto;
