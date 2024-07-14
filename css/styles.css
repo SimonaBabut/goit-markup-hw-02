@@ -8,6 +8,9 @@ body {
   color: var(--secondary-color);
   background-color: #FFFFFF;
 }
+.header-item {
+    color: #2e2f42;
+}
 .header-link {
   font-size: 16px;
   font-weight: 500;
@@ -17,6 +20,9 @@ body {
 }
 .address {
     font-style: normal;
+}
+.address-list-item {
+    color: #434455;
 }
 
 .header-link-active,
@@ -138,7 +144,7 @@ color: var(--secondary-color)
 }
 
 .logo-element {
-    color: #f4f4fd;
+    color: #2e2f42; 
 }
 .footer-paragraph {
 font-family: Roboto;
