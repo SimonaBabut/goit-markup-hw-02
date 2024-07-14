@@ -1,0 +1,116 @@
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --text-white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.header-link-active,
+.header-link:hover {
+  color: #ff6600cb;
+}
+
+- .primary-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--text-white);
+    cursor: pointer;
+  }
+  .hero-section {
+    background-color:var(--primary-color);
+  }
+  .hero-title {
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+color: var(--text-white);
+  }
+  .section-subtitle {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--primary-color);
+  }
+  .section-paragraph {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--secondary-color)
+  }
+  .employee-section-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: var(--primary-color)
+  }
+  .employee-section-subtitle {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--primary-color)
+  }
+
+.employee-section-paragraph {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+}
+.portfolio-section-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: var(--primary-color)
+}
+.portfolio-section-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-color)
+}
+.portfolio-section-paragraph {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--secondary-color)
+}
+footer {
+    background-color: var(--secondary-color) ;
+}
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+   color:#F4F4FD;
+}
+.footer-paragraph {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
