@@ -5,6 +5,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--secondary-color);
+  background-color: #FFFFFF;
 }
 .header-link {
   font-size: 16px;
@@ -99,12 +101,13 @@ footer {
     background-color: var(--secondary-color) ;
 }
 .logo {
-    font-family: Raleway;
+    font-family: Raleway,  sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.03em;
-   color:#F4F4FD;
+    text-transform: uppercase;
+   color:#4d5ae5;
 }
 .footer-paragraph {
 font-family: Roboto;
