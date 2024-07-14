@@ -18,9 +18,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.logo-element {
-  color: #2e2f42;
-}
+
 .address {
   font-style: normal;
 }
@@ -146,6 +144,10 @@ body {
   color: #4d5ae5;
 }
 
+.logo-element {
+    color: #2e2f42;
+  }
+  
 .footer-logo-element {
   color: #f4f4fd;
 }
