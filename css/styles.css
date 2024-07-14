@@ -11,6 +11,9 @@ body {
 .header-list-item {
   color: #2e2f42;
 }
+.header .header-list-item {
+  color: #2e2f42;
+}
 .header-link {
   font-size: 16px;
   font-weight: 500;
@@ -27,8 +30,10 @@ body {
 }
 
 .header-link-active,
-.header-link:hover:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 
 .primary-button {
