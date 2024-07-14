@@ -37,7 +37,7 @@ body {
 }
 
 .primary-button {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -48,9 +48,18 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
+
+.primary-button:hover {
+  background-color: #404bbf;
+}
+.primary-button:focus {
+  background-color: #404bbf;
+}
+
 .hero-section {
   background-color: var(--primary-color);
 }
+
 .hero-title {
   font-size: 56px;
   font-weight: 700;
